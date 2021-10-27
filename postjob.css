@@ -1,0 +1,60 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+body{
+    background-color:#d1ecda;
+     font-family: sans-serif;
+    }
+input[value="post job"]{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.form-wrap{
+     width: 680px;
+      background: rgb(196, 214, 178);
+       padding: 40px 20px; 
+       box-sizing: border-box; 
+       position: fixed; 
+       left: 60%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+h1{
+    text-align: center; 
+    color:black; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+
+input{
+    width: 600px; 
+    background: none;
+    border: 2px solid white; 
+    border-radius: 3px;
+    padding: 10px 15px;
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    }
+
+input[type="submit"]
+{
+     background: #d4d8bb; 
+     border: 2px solid black; 
+     width: 100px;
+     cursor: pointer; 
+     color: #3e3d3d;
+    }
+input[type="submit"]:hover{ 
+    background: #abb188; 
+    transition: .6s;
+}
+
+::placeholder{
+    color: black;
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.contain{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/pic2.jpg);
+	background-size: cover;
+    height: 100vh;
+	-webkit-background-size: cover;
+	background-position: center center;
+	position: relative;
+    padding:15px 9%;
+    padding-bottom: 50px;
+}
+
+.contain .heading{
+    text-align: center;
+    padding-bottom: 30px;
+    color:rgba(55, 189, 230, 0.788);
+    font-size: 50px;
+}
+
+.contain .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+}
+
+.contain .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+    border: 2px solid rgba(93, 211, 47, 0.671);
+}
+
+
+.contain .box-container .box h3{
+    color:rgb(36, 31, 31);
+    font-size: 30px;
+    padding:10px 0;
+    font-weight: bold;
+}
+
+.contain .box-container .box p{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.8;
+}
+.contain .box-container .box p span{
+    color: black;
+    font-weight: bold;
+}
+.contain .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:rgba(212, 176, 176, 0.575);
+    color:rgb(240, 84, 84);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    border: 2px solid rgb(30, 31, 28);
+    font-weight: bold;
+}
+
+.contain .box-container .box .btn:hover{
+    letter-spacing: 1px;
+    color: yellowgreen;
+    border: 2px solid rgba(154, 224, 15, 0.938);
+    font-weight: bold;
+}
+
+.contain .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+.contain .box1{
+    margin-left: 350px;
+}
+@media (max-width:768px){
+    .contain{
+        padding:20px;
+    }
+}@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.contain{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/pic2.jpg);
+	background-size: cover;
+    height: 100vh;
+	-webkit-background-size: cover;
+	background-position: center center;
+	position: relative;
+    padding:15px 9%;
+    padding-bottom: 50px;
+}
+
+.contain .heading{
+    text-align: center;
+    padding-bottom: 30px;
+    color:rgba(55, 189, 230, 0.788);
+    font-size: 50px;
+}
+
+.contain .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+}
+
+.contain .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+    border: 2px solid rgba(93, 211, 47, 0.671);
+}
+
+.contain .box-container .box img{
+    height: 80px;
+}
+
+.contain .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.contain .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.contain .box-container .box p span{
+    color: black;
+    font-weight: bold;
+}
+.contain .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:rgba(212, 176, 176, 0.575);
+    color:rgb(240, 84, 84);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    border: 2px solid rgb(30, 31, 28);
+    font-weight: bold;
+}
+
+.contain .box-container .box .btn:hover{
+    letter-spacing: 1px;
+    color: yellowgreen;
+    border: 2px solid rgba(154, 224, 15, 0.938);
+    font-weight: bold;
+}
+
+.contain .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+.contain .box1{
+    margin-left: 350px;
+}
+@media (max-width:768px){
+    .contain{
+        padding:20px;
+    }
+}
