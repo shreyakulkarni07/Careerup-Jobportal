@@ -17,7 +17,7 @@
         }
     }
 ?>
-<link rel="stylesheet" href="Postjob.css" />
+<link rel="stylesheet" href="postjob.css" />
         <div class="form-wrap">
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
             <p><?php echo $msg ?></p>
