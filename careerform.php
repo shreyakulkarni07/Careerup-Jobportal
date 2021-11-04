@@ -7,9 +7,10 @@ if(isset($_POST['apply'])){
 	$username=$_POST['name'];
 	$applying=$_POST['applying'];
 	$qualification=$_POST['qualification'];
+	$cgpa=$_POST['cgpa'];
 	$passout=$_POST['passout'];
   if($bool){
-    $query = "INSERT INTO CAPPLIED VALUES (NULL,'$username','$applying','$qualification','$passout')";
+    $query = "INSERT INTO CAPPLIED VALUES (NULL,'$username','$applying','$qualification','$cgpa','$passout')";
     $res = mysqli_query($conn,$query);
     if($res){
       $msg = "Congratulations !You have successfully applied";
@@ -30,10 +31,11 @@ if(isset($_POST['apply'])){
 				<h2>Apply</h2>
 				<p><?php echo $msg ?></p>
 				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-				<input type="text" name="name" class="field" placeholder="Your Name">
-				<input type="text" name="applying"class="field" placeholder="Applying For">
-				<input type="text" name="qualification" class="field" placeholder="Qualification">
-                <input type="text" name="passout" class="field" placeholder="Year Passout">
+				<input type="text" name="name" class="field" placeholder="Your Name" required>
+				<input type="text" name="applying"class="field" placeholder="Applying For" required>
+				<input type="text" name="qualification" class="field" placeholder="Qualification" required>
+				<input type="text" name="cgpa"class="field" placeholder="CGPA" required>
+                <input type="text" name="passout" class="field" placeholder="Year Passout" required>
 				<button class="btn" name="apply">Apply</button>
                 </form>
 			</div>
