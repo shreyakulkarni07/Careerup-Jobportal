@@ -6,6 +6,7 @@
 if(isset($_POST['signup'])){
 	$username=$_POST['name'];
 	$email=$_POST['email'];
+	$number=$_POST['number'];
 	$password=$_POST['password'];
 	$cpassword=$_POST['cpassword'];
 	if($password!=$cpassword) {
@@ -13,7 +14,7 @@ if(isset($_POST['signup'])){
     $msg = "Please make sure both passwords match";
   }
   if($bool){
-    $query = "INSERT INTO USERS VALUES (NULL,'$username','$email','$password')";
+    $query = "INSERT INTO USERS VALUES (NULL,'$username','$email','number','$password')";
     $res = mysqli_query($conn,$query);
     if($res){
       $msg = "Congratulations ! Please Login";
@@ -91,6 +92,10 @@ if(isset($_POST['login'])){
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
                 <input type="text"name="email" placeholder="Enter your email" required>
+              </div>
+	      <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text"name="number" placeholder="Enter your mobileno" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
