@@ -1,8 +1,8 @@
 <?php
-$server="remotemysql.com";
-$username="LRNlZOZBZW";
-$password="gE4pObIU81";
-$database="LRNlZOZBZW";
+$server="bmeecvph6tboduoyzj2d-mysql.services.clever-cloud.com";
+$username="ugh0nneixo3zmltu";
+$password="3PH814MuGlb1PrVhMUkT";
+$database="bmeecvph6tboduoyzj2d";
 
 $conn= mysqli_connect($server,$username,$password,$database);
 if(!$conn) {

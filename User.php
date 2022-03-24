@@ -14,7 +14,7 @@ if(isset($_POST['signup'])){
     $msg = "Please make sure both passwords match";
   }
   if($bool){
-    $query = "INSERT INTO USERS VALUES (NULL,'$username','$email','number','$password')";
+    $query = "INSERT INTO USERS VALUES (NULL,'$username','$email','$number','$password')";
     $res = mysqli_query($conn,$query);
     if($res){
       $msg = "Congratulations ! Please Login";
